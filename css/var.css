@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root {
+    --main-color: #9D00FF;
+    --hover-color: #BE56FF;
+    --text-color: #ffffff;
+    --navbar-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lexend, sans-serif, Arial;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+body {
+    padding-top: 72px;
+}
