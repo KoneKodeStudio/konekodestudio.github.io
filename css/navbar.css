@@ -1,7 +1,7 @@
 .navbar {
     background-color: var(--navbar-color);
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 400px 1fr 400px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -32,9 +32,9 @@
 .navbar-links {
     flex: 1;
     display: flex;
-    gap: 65px;
-    margin-right: 400px;
+    gap: 60px;
     justify-content: center;
+    list-style: none;
 }
 
 .navbar-links a {
