@@ -13,8 +13,7 @@
 .navbar-logo a {
     display: flex;
     align-items: center;
-    width: 300px;
-    margin-left: 100px;
+    justify-content: center;
 }
 
 .navbar-logo-img {
