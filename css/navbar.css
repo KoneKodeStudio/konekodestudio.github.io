@@ -18,8 +18,7 @@
 
 .navbar-logo-img {
     height: 40px;
-    width: auto;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
 }
 
 .navbar-logo-text {
