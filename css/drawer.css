@@ -1,0 +1,36 @@
+.drawer {
+    position: fixed;
+    top: 72px;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+
+.drawer-item.active {
+    transform: scale(1.3);
+}
+
+.drawer-item {
+    font-weight: bold;
+    list-style: none;
+    font-size: 30px;
+}
+
+.drawer-item a {
+    color: white;
+    cursor: pointer;
+}
+
+.drawer-item:hover {
+    transform: scale(1.3);
+}

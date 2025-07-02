@@ -4,7 +4,7 @@
     --main-color: #9D00FF;
     --hover-color: #BE56FF;
     --text-color: #ffffff;
-    --navbar-color: #000000;
+    --nav-color: #000000;
 }
 
 * {
@@ -12,9 +12,11 @@
     padding: 0;
     font-family: Lexend, sans-serif, Arial;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 body {
     padding: 72px 0 0 0;
+    background-color: var(--nav-color);
 }

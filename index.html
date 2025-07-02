@@ -7,25 +7,31 @@
     <title>Home | KoneKode</title>
     <link rel="stylesheet" href="/css/var.css">
     <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/drawer.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <a href="index.html">
-                <img class="navbar-logo-img"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png">
-                <span class="navbar-logo-text">KoneKode</span>
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="index.html" class="nav-logo-link">
+                <img class="nav-logo-img" src="/img/bruttina.png">
+                <span>Kone</span>
+                <span>Kode</span>
             </a>
         </div>
         <div class="nav-center">
-            <ul class="navbar-links">
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
+            <input type="text" class="nav-search" placeholder="Search...">
         </div>
     </nav>
+
+    <div class="drawer">
+        <ul class="drawer-menu">
+            <li class="drawer-item active"><a href="/index.html">Home</a></li>
+            <li class="drawer-item"><a href="/games.html">Games</a></li>
+            <li class="drawer-item"><a href="/about.html">About</a></li>
+            <li class="drawer-item"><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
 </body>
 
 </html>
