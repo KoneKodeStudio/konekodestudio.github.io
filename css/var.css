@@ -5,6 +5,8 @@
     --hover-color: #BE56FF;
     --text-color: #ffffff;
     --nav-color: #000000;
+    --bg-color: #111111;
+    --secondary: #313131d2;
 }
 
 * {
@@ -18,5 +20,9 @@
 
 body {
     padding: 72px 0 0 0;
-    background-color: var(--nav-color);
+    background-color: var(--bg-color);
+}
+
+body.light {
+    --bg-color: #ffffff;
 }

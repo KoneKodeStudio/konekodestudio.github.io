@@ -1,55 +1,130 @@
 .nav {
-    background-color: var(--nav-color);
-    display: grid;
-    grid-template-columns: 400px 1fr 400px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 72px;
+    background-color: var(--nav-color);
+    color: var(--text-color);
+    z-index: 1000;
 }
 
-.nav-logo a {
+.nav-left,
+.nav-center,
+.nav-right {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--nav-color);
 }
 
-.nav-logo-img {
-    height: 40px;
-    margin: 0 10px 0 0;
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
 }
 
-.nav-logo-link {
-    font-size: 28px;
-    font-weight: bold;
+.nav-logo img {
+    width: 50px;
+    height: 50px;
 }
 
-.nav-logo-link span:nth-child(2) {
+.nav-logo span:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--text-color);
 }
 
-.nav-logo-link span:nth-child(3) {
+.nav-logo span:nth-child(3) {
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--main-color);
 }
 
+
 .nav-center {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
 .nav-search {
-    background-color: rgba(49, 49, 49, 0.825);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 15px 10px 15px;
-    font-size: 18px;
-    width: 325px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--secondary);
+    padding: 10px 15px;
+    border-radius: 24px;
+    width: min(315px, 100%);
 }
 
-.nav-search:focus {
+.nav-search button {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.nav-search button i {
+    transform: translateY(2px);
+}
+
+.nav-search-field {
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+}
+
+.nav-search-field:focus {
     outline: none;
+}
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.nav-theme-toggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+}
+
+.nav-theme-toggle i {
+    position: absolute;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: inline;
+}
+
+.nav-theme-toggle i.bx-sun {
+    display: block;
+}
+
+.nav-theme-toggle i.bx-moon {
+    display: none;
+}
+
+.nav-theme-toggle.active i.bx-moon {
+    display: block;
+}
+
+.nav-theme-toggle.active i.bx-sun {
+    display: none;
 }

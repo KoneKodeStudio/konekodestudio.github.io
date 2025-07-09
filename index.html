@@ -8,6 +8,8 @@
 
     <link rel="shortcut icon" href="/img/bruttina.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
     <link rel="stylesheet" href="/css/var.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/drawer.css">
@@ -15,26 +17,39 @@
 
 <body>
     <nav class="nav">
-        <div class="nav-logo">
-            <a href="index.html" class="nav-logo-link">
-                <img class="nav-logo-img" src="/img/bruttina.png">
-                <span>Kone</span>
-                <span>Kode</span>
+        <div class="nav-left">
+            <a href="/index.html" class="nav-logo">
+                <img src="/img/bruttina.png" alt="KoneKode Logo" class="nav-logo">
+                <span class="nav-title">Kone</span>
+                <span class="nav-title">Kone</span>
             </a>
         </div>
+
         <div class="nav-center">
-            <input type="text" class="nav-search" placeholder="Search...">
+            <div class="nav-search">
+                <button>
+                    <i class='bx bx-search'></i>
+                </button>
+                <input type="text" class="nav-search-field" placeholder="Search...">
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-theme-toggle">
+                <i class="bx bx-sun"></i>
+                <i class="bx bx-moon"></i>
+            </div>
+        </div>
+
+        <div class="nav-drawer">
+
         </div>
     </nav>
 
-    <div class="drawer">
-        <ul class="drawer-menu">
-            <li class="drawer-item active"><a href="/index.html">Home</a></li>
-            <li class="drawer-item"><a href="/games.html">Games</a></li>
-            <li class="drawer-item"><a href="/about.html">About</a></li>
-            <li class="drawer-item"><a href="/contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <main>
+    </main>
+    
+    <script src="/js/theme.js"></script>
 </body>
 
 </html>
