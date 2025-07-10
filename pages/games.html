@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="/img/bruttina.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
 
     <link rel="stylesheet" href="/css/var.css">
     <link rel="stylesheet" href="/css/navbar.css">
@@ -30,7 +32,8 @@
                 <button>
                     <i class='bx bx-search'></i>
                 </button>
-                <input type="text" class="nav-search-field" placeholder="Search...">
+                <input type="text" id="search" class="nav-search-field" placeholder="Search...">
+                <ul id="results"></ul>
             </div>
         </div>
 
@@ -55,6 +58,7 @@
         <h1>&lt;/ Games !&gt;</h1>
     </main>
 
+    <script src="/js/search-engine.js"></script>
     <script src="/js/theme.js"></script>
 </body>
 

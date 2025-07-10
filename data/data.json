@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Hollow Knight",
+        "type": "Game",
+        "link": "games/hollow-knight.html"
+    },
+    {
+        "name": "The Knight",
+        "type": "Character",
+        "link": "characters/the-knight.html"
+    },
+    {
+        "name": "Hollow Knight Wiki",
+        "type": "Wiki",
+        "link": "https://hollowknight.fandom.com/wiki/Knight"
+    },
+    {
+        "name": "Blog Hollow Knight",
+        "type": "Blog",
+        "link": "https://www.teamcherry.com"
+    },
+    {
+        "name": "HOLLOW KNIGHT: SILKSONG",
+        "type": "Game",
+        "link": "https://www.teamcherry.com.au/blog/hollow-knight-silksong-revealed"
+    },
+    {
+        "name": "Hornet",
+        "type": "Character",
+        "link": "https://hollowknight.fandom.com/wiki/Hornet"
+    },
+    {
+        "name": "SILKSONG Wiki",
+        "type": "Wiki",
+        "link": "https://hollowknight.fandom.com/wiki/Hollow_Knight:_Silksong"
+    },
+    {
+        "name": "SonoNessunk",
+        "type": "Site",
+        "link": "https://sononessunk.github.io"
+    },
+    {
+        "name": "Contact",
+        "type": "Site",
+        "link": "/pages/contact.html"
+    }
+]
