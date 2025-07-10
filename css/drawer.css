@@ -1,36 +1,38 @@
-.drawer {
+.nav-drawer {
     position: fixed;
     top: 72px;
     bottom: 0;
     left: 0;
-    width: 400px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--nav-color);
 }
 
-.drawer-menu {
+.nav-drawer ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 120px;
 }
 
-.drawer-item.active {
-    transform: scale(1.3);
-}
-
-.drawer-item {
-    font-weight: bold;
+.nav-drawer li {
     list-style: none;
-    font-size: 30px;
 }
 
-.drawer-item a {
-    color: white;
+.nav-drawer ul li a {
+    display: inline-block;
+    color: var(--terziary);
+    font-size: 2rem;
+    font-weight: bold;
     cursor: pointer;
+    /* transform-origin: left center; */
 }
 
-.drawer-item:hover {
-    transform: scale(1.3);
+.nav-drawer ul li a:hover,
+.nav-drawer ul li a.active {
+    transform: scale(1.5);
+    color: var(--main-color);
+    text-shadow: 1.5px 1.1px 0 rgba(0, 0, 0, 0.5);
 }

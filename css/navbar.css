@@ -8,8 +8,6 @@
     right: 0;
     height: 72px;
     background-color: var(--nav-color);
-    color: var(--text-color);
-    z-index: 1000;
 }
 
 .nav-left,
@@ -18,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--nav-color);
 }
 
 .nav-logo {
@@ -33,10 +30,14 @@
     height: 50px;
 }
 
+.nav-logo span {
+    text-shadow: 1.5px 1.1px 0 rgba(0, 0, 0, 0.5);
+}
+
 .nav-logo span:nth-child(2) {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--text-color);
+    color: var(--terziary);
 }
 
 .nav-logo span:nth-child(3) {

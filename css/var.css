@@ -7,6 +7,7 @@
     --nav-color: #000000;
     --bg-color: #111111;
     --secondary: #313131d2;
+    --terziary: #ffffff;
 }
 
 * {
@@ -25,4 +26,21 @@ body {
 
 body.light {
     --bg-color: #ffffff;
+    --text-color: #000000;
+    --secondary: #ffffffd2;
+    --nav-color: #696969;
+}
+
+main {
+    padding: 0 0 0 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 72px);
+}
+
+main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--text-color);
 }
