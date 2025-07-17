@@ -37,7 +37,7 @@
 .nav-logo span:nth-child(2) {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--terziary);
+    color: var(--tertiary);
 }
 
 .nav-logo span:nth-child(3) {
@@ -70,11 +70,11 @@
     border: none;
     color: var(--text-color);
     cursor: pointer;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .nav-search button i {
-    transform: translateY(3px);
+    transform: translateY(2px);
 }
 
 .nav-search-field {
@@ -119,29 +119,39 @@ ul#results li.no-results {
     font-style: italic;
 }
 
+#results li.highlighted {
+    background-color: var(--highlight-color);
+    color: white;
+}
 
+.nav-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    border: none;
+}
 
+.nav-history:hover,
+.nav-theme-toggle:hover {
+    background-color: var(--highlight-color);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-history i {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 .nav-right {
     display: flex;
     align-items: center;
     width: 400px;
+    gap: 10px;
 }
 
 .nav-theme-toggle {

@@ -8,8 +8,8 @@
 
     <link rel="shortcut icon" href="/img/bruttina.png" type="image/x-icon">
 
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@latest"></script>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 
     <link rel="stylesheet" href="/css/var.css">
     <link rel="stylesheet" href="/css/navbar.css">
@@ -23,7 +23,7 @@
             <a href="/index" class="nav-logo">
                 <img src="/img/bruttina.png" alt="KoneKode Logo" class="nav-logo">
                 <span class="nav-title">Kone</span>
-                <span class="nav-title">Kone</span>
+                <span class="nav-title">Kode</span>
             </a>
         </div>
 
@@ -38,7 +38,9 @@
         </div>
 
         <div class="nav-right">
+            <button class="nav-history" onclick="clearHistory()"><i class='bx bx-trash'></i></button>
             <div class="nav-theme-toggle">
+
                 <i class="bx bx-sun"></i>
                 <i class="bx bx-moon"></i>
             </div>
@@ -57,7 +59,6 @@
     <main>
         <h1>&lt;/ Home !&gt;</h1>
     </main>
-
     <script src="/js/search-engine.js"></script>
     <script src="/js/theme.js"></script>
 </body>

@@ -7,7 +7,8 @@
     --nav-color: #000000;
     --bg-color: #111111;
     --secondary: #313131d2;
-    --terziary: #ffffff;
+    --tertiary: #ffffff;
+    --highlight-color: #444444;
 }
 
 * {
@@ -29,6 +30,8 @@ body.light {
     --text-color: #000000;
     --secondary: #ffffffd2;
     --nav-color: #696969;
+    --highlight-color: #a3a3a3;
+
 }
 
 main {

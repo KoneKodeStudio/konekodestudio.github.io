@@ -23,7 +23,7 @@
 
 .nav-drawer ul li a {
     display: inline-block;
-    color: var(--terziary);
+    color: var(--tertiary);
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
